@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Platforms>AnyCPU</Platforms>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="FrmButacas.cs"><SubType>Form</SubType></Compile>
+    <Compile Update="FrmButacas.Designer.cs"><DependentUpon>FrmButacas.cs</DependentUpon></Compile>
+    <Compile Update="FrmClientes.cs"><SubType>Form</SubType></Compile>
+    <Compile Update="FrmClientes.Designer.cs"><DependentUpon>FrmClientes.cs</DependentUpon></Compile>
+    <Compile Update="FrmEmpleados.cs"><SubType>Form</SubType></Compile>
+    <Compile Update="FrmEmpleados.Designer.cs"><DependentUpon>FrmEmpleados.cs</DependentUpon></Compile>
+    <Compile Update="FrmFunciones.cs"><SubType>Form</SubType></Compile>
+    <Compile Update="FrmFunciones.Designer.cs"><DependentUpon>FrmFunciones.cs</DependentUpon></Compile>
+    <Compile Update="FrmGeneros.cs"><SubType>Form</SubType></Compile>
+    <Compile Update="FrmGeneros.Designer.cs"><DependentUpon>FrmGeneros.cs</DependentUpon></Compile>
+    <Compile Update="FrmLogin.cs"><SubType>Form</SubType></Compile>
+    <Compile Update="FrmLogin.Designer.cs"><DependentUpon>FrmLogin.cs</DependentUpon></Compile>
+    <Compile Update="FrmPeliculas.cs"><SubType>Form</SubType></Compile>
+    <Compile Update="FrmPeliculas.Designer.cs"><DependentUpon>FrmPeliculas.cs</DependentUpon></Compile>
+    <Compile Update="FrmProductos.cs"><SubType>Form</SubType></Compile>
+    <Compile Update="FrmProductos.Designer.cs"><DependentUpon>FrmProductos.cs</DependentUpon></Compile>
+    <Compile Update="FrmSalas.cs"><SubType>Form</SubType></Compile>
+    <Compile Update="FrmSalas.Designer.cs"><DependentUpon>FrmSalas.cs</DependentUpon></Compile>
+    <Compile Update="FrmUsuarios.cs"><SubType>Form</SubType></Compile>
+    <Compile Update="FrmUsuarios.Designer.cs"><DependentUpon>FrmUsuarios.cs</DependentUpon></Compile>
+    <Compile Update="FrmVentas.cs"><SubType>Form</SubType></Compile>
+    <Compile Update="FrmVentas.Designer.cs"><DependentUpon>FrmVentas.cs</DependentUpon></Compile>
+    <Compile Update="MainForm.cs"><SubType>Form</SubType></Compile>
+    <Compile Update="MainForm.Designer.cs"><DependentUpon>MainForm.cs</DependentUpon></Compile>
+    <Compile Update="FrmConexion.cs"><SubType>Form</SubType></Compile>
+    <Compile Update="FrmConexion.Designer.cs"><DependentUpon>FrmConexion.cs</DependentUpon></Compile>
+  </ItemGroup>
+</Project>
